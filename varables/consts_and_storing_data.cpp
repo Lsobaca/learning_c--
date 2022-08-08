@@ -26,6 +26,9 @@ int main(){
     name = "Steve harvey";
     std::cout<<"name = "<< name << std::endl;
 
+    // can do num1 + 2
+    std::cout<<"num1 + 2 = " << num1 + 2 << std::endl;
+
 
 
     return 0;
