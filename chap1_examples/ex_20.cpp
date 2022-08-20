@@ -26,8 +26,8 @@
 
 int main(){
 
-    std::cout.scientific;
-    const double GRAVITATIONAL_CONSTANT = 6.6743e-11;
+    
+    const double GRAVITATIONAL_CONSTANT = 6.67e-8;
 
     double mass1,mass2,distance;
     std::cout<<"Enter the masses of the two objects(use e for notation): ";
