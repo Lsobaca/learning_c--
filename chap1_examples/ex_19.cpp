@@ -5,3 +5,15 @@ pennies.
 
 
 */
+
+#include<iostream>
+
+
+int main(){
+    int quarters,dimes,nickels;
+    std::cout<<"Enter your change: "<<std::endl;
+    std::cin>>quarters>>dimes>>nickels;
+    std::cout<<"Total in pennies: "<< ((quarters*25)+(dimes*10)+(nickels*5));
+
+    return 0;
+}
