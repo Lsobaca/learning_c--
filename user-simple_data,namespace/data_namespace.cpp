@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main()
-{
+{   // using enum to create a grade enum, then print it.
     enum grade
     {
         A,
@@ -31,7 +31,8 @@ int main()
     course registered;
     std::string myclass;
     std::getline(std::cin, myclass);
-
+    // a switch statement that checks if myclass is equal to "CS", "IS", or "EE" and assigns the corresponding enum value to 'registered'
+    // then prints out the enum value and the string value
     if(myclass == "CS")
     {
         registered = CS;
@@ -72,6 +73,13 @@ int main()
     }
 
     classes(registered);
+
+
+    // user-defined type alias to define an integer variable named 'age' and set it to 18
+    typedef int age;
+    age myage = 18;
+    std::cout << myage << std::endl;
+
 
     return 0;
 }
